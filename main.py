@@ -1,14 +1,14 @@
 ''''
+Ejercicio 13
 money=float(input("¿Cuantos € quieres meter en tu cuenta de ahorros "))
 years=3
-
 
 for i in range (years):
  money=money+((money*4)/100)
  print("En el años",i+1,"tus ahorros son:",round(money,2),"€")
 '''
 
-'''Ejercicio Barras de Pan
+'''Ejercicio 14
 barra normal : 3.49
 barra no fresa 60% descuento
 barras=int(input("¿Cuantas barricas de pan de ayer se han vendido? "))
